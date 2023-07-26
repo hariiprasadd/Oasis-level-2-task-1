@@ -1,0 +1,60 @@
+.main-container {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  border: white  2px solid;
+}
+body {
+  height: 100vh;
+  background-color: #1f2029;
+  background-image: url('cal.png');
+  background-size: 100%;
+  
+}
+.header {
+  color: wheat;
+  text-emphasis-color: white;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.disp {
+  text-align: right;
+  height: 60px;
+  line-height: 60px;
+  padding: 20px 20px;
+  font-size: 25px;
+  border: 0.5px solid white;
+  color: white;
+  font-weight: bold;
+}
+.buttons {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white(255, 255, 255);
+}
+.btn {
+  border: 0.5px solid white;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0.3%;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: bold;
+}
+.btn:hover {
+  background: white;
+  color: white;
+
+}
+#equal-btn {
+  background:black;
+  color: white;
+}
+.main-container{
+  background: grey;
+}
